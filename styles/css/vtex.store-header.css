@@ -1,10 +1,15 @@
+.headerRowContainer--firstHeader {
+  background: #000000;
+  padding-right: 10px;
+}
+
 .headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;
 }
 
 .headerRow--main-header .headerRowBackground {
-  background-color: #F0F0F0;
+  background-color: #18262f;
 }
 
 .headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
@@ -14,5 +19,5 @@
 
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0px;
-  background-color: #F0F0F0;
+  background: #18262f;
 }

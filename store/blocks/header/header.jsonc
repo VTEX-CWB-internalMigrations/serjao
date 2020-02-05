@@ -9,7 +9,6 @@
     "children": [
       "header-row#1-desktop",
       "header-row#2-desktop",
-      "header-row#3-desktop",
       "header-row#4-desktop"
     ]
   },
@@ -22,25 +21,45 @@
   },
 
   "header-row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [
+      "notification.bar#home",
+      "rich-text#contactNumber",
+      "header-spacer",
+      "social-networks"
+    ],
     "props": {
-      "fullWidth": "true"
+      "fullWidth": "true",
+      "blockClass": "firstHeader"
     }
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "CENTRAL DE ATENDIMENTO",
+      "blockClass": "atendimentoCentral"
     }
   },
-  "header-row#3-desktop": {
-    "children": [
-      "vtex.menu@2.x:menu#websites",
-      "header-spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ],
+  "rich-text#contactNumber":{
     "props": {
-      "blockClass": "menu-link",
-      "inverted": "true"
+      "text": "11 3338-2780 / 3224-9804 / 3361-8948",
+      "blockClass": "contactNumber"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/serjao.motopecas"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/serjaomotopecas/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/serjaomotopecas"
+        }
+      ]
     }
   },
   "header-row#4-desktop": {
@@ -63,7 +82,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://serjao1976.vteximg.com.br/arquivos/serjaologo.png",
       "width": "180"
     }
   },

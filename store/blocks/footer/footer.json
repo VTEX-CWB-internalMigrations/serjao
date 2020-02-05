@@ -15,36 +15,12 @@
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
-    }
-  },
-
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
     }
   },
 
@@ -90,7 +66,6 @@
   "flex-layout.col#footer-1-mobile": {
     "children": [
       "accepted-payment-methods",
-      "social-networks",
       "rich-text#footer-mobile"
     ],
     "props": {

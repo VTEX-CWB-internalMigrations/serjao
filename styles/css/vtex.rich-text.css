@@ -57,6 +57,11 @@
   font-weight: 700;
 }
 
+.container--contactNumber {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
