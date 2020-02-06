@@ -35,3 +35,7 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--blackLine {
+  background-color: #000000;
+}

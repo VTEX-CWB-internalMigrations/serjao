@@ -1,7 +1,11 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop", 
+      "footer-layout.mobile"
+    ]
   },
+
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
@@ -9,13 +13,13 @@
       "flex-layout.row#footer-3-desktop"
     ]
   },
+
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer"
+      "flex-layout.col#firstCol",
+      "flex-layout.col#secondCol",
+      "flex-layout.col#thirdCol",
+      "flex-layout.col#fourthCol"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -24,27 +28,179 @@
     }
   },
 
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+  "flex-layout.col#firstCol": {
+    "children":[
+      "rich-text#institucional",
+      "rich-text#privacidade",
+      "rich-text#seguranca",
+      "rich-text#sobreEmpresa",
+      "rich-text#loja",
+      "rich-text#duvidas"
+    ]
+  },
+
+  "rich-text#sobreEmpresa": {
     "props": {
-      "blockClass": "payment-methods"
+      "text": "[Sobre a empresa](/sobre-a-empresa)",
+      "blockClass": "footer-links"
     }
   },
-  "accepted-payment-methods": {
+
+  "rich-text#privacidade": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "text": "[Política de Privacidade](/sobre-a-empresa)",
+      "blockClass": "footer-links"
+    }
+  },
+
+  "rich-text#seguranca": {
+    "props": {
+      "text": "[Política de Segurança](/sobre-a-empresa)",
+      "blockClass": "footer-links"
+    }
+  },
+
+  "rich-text#loja": {
+    "props": {
+      "text": "[Loja Física](/sobre-a-empresa)",
+      "blockClass": "footer-links"
+    }
+  },
+
+  "rich-text#duvidas": {
+    "props": {
+      "text": "[Dúvidas](/sobre-a-empresa)",
+      "blockClass": "footer-links"
+    }
+  },
+
+  "flex-layout.col#secondCol": {
+    "children":[
+      "rich-text#pagamento",
+      "flex-layout.row#flagPayments"
+    ]
+  },
+
+  "flex-layout.row#flagPayments": {
+    "children": [
+      "flex-layout.row#primeira"
+    ],
+    "props": {
+      "blockClass": "colunaPagamento"
+    }
+  },
+  "flex-layout.row#primeira": {
+    "children": [
+      "image#flagOne",
+      "image#flagTwo",
+      "image#flagTeen",
+      "image#flagFour"
+    ]
+  },
+
+  "image#flagOne": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "https://serjao1976.vteximg.com.br/arquivos/rodape_pag_boleto_bradesco.png",
+      "blockClass": "flagsImg"
+    }
+  },
+
+  "image#flagTwo": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "https://serjao1976.vteximg.com.br/arquivos/rodape_pag_boleto_itau.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  
+  "image#flagTeen": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "https://serjao1976.vteximg.com.br/arquivos/rodapedeposito.png",
+      "blockClass": "flagsImg"
+    }
+  },
+
+  "image#flagFour": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "https://serjao1976.vteximg.com.br/arquivos/rodape_pag_mercadopago.png",
+      "blockClass": "flagsImg"
+    }
+  },
+
+  "flex-layout.col#thirdCol": {
+    "children":[
+      "rich-text#selos",
+      "flex-layout.row#certificados"
+    ]
+  },
+
+  "flex-layout.col#fourthCol": {
+    "children":[
+      "rich-text#facebook"
+    ]
+  },
+
+  "rich-text#institucional": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "rich-text#pagamento": {
+    "props": {
+      "text": "Formas de Pagamento",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "rich-text#selos": {
+    "props": {
+      "text": "Selos",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "rich-text#redesSociais": {
+    "props": {
+      "text": "Redes Sociais"
+    }
+  },
+
+  "rich-text#funcionamento": {
+    "props": {
+      "text": "**Central de Atendimento: (11) 3338-2780** <br/> Seg. à Sex. das 8:30h às 18h | Sábados das 8h às 14h"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "rich-text#redesSociais",
+      "social-networks",
+      "footer-spacer",
+      "rich-text#funcionamento"
+    ],
+    "props": {
+      "blockClass": "blackLine"
     }
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "rich-text#footer",
+      "image#linkVtex"
+    ],
     "props": {
       "blockClass": "credits"
     }
   },
+
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "SERGIO HENRIQUE CAETANO SILVA - ME - CNPJ 07.976.734/0001-50 Rua Guaianases, 361 Centro, São Paulo/SP CEP: 01204-000",
       "blockClass": "footer"
     }
   },
@@ -84,8 +240,39 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "SERGIO HENRIQUE CAETANO SILVA - ME - CNPJ 07.976.734/0001-50 Rua Guaianases, 361 Centro, São Paulo/SP CEP: 01204-000",
       "blockClass": "footer"
+    }
+  },
+
+  "flex-layout.row#certificados": {
+    "children": [
+      "flex-layout.col#certificadoLetsEncrypt"    
+    ]
+  },
+  "rich-text#letsEncrypt": {
+    "props": {
+      "text": "![lets Encrypt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-letsEncrypt___76b55795605e189b1e6c4416f2587e16.png)"
+    }
+  },
+  "flex-layout.col#certificadoLetsEncrypt": {
+    "children": [
+      "rich-text#letsEncrypt"
+    ]
+  },
+  
+  "rich-text#facebook": {
+    "props": {
+      "text": "'<iframe frameborder='0' style='border: none; visibility: visible; width: 300px; height: 197px;' src='https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D45%23cb%3Df2ab555166e4508%26domain%3Dwww.serjaomotopecas.com.br%26origin%3Dhttps%253A%252F%252Fwww.serjaomotopecas.com.br%252Ff1618b0b8839524%26relation%3Dparent.parent&amp;container_width=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fserjao.motopecas%2F&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false'></iframe>'"
+    }
+  },
+
+  "image#linkVtex": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
+      "maxWidth": "120px",
+      "alt": "VTEX",
+      "link": "https://www.vtex.com.br"
     }
   }
 }

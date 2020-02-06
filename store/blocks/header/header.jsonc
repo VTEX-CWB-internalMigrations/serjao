@@ -9,7 +9,8 @@
     "children": [
       "header-row#1-desktop",
       "header-row#2-desktop",
-      "header-row#4-desktop"
+      "header-row#4-desktop",
+      "header-row#3-desktop"
     ]
   },
 
@@ -17,6 +18,16 @@
     "children": ["telemarketing"],
     "props": {
       "fullWidth": true
+    }
+  },
+
+  "header-row#3-desktop": {
+    "children": [      
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "shadow"
     }
   },
 
@@ -65,11 +76,8 @@
   "header-row#4-desktop": {
     "children": [
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
-      "header-spacer",
       "header-spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ],
@@ -108,9 +116,18 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#menuItemOne",
+      "menu-item#menuItemTwo",
+      "menu-item#menuItemThree",
+      "menu-item#menuItemFour",
+      "menu-item#menuItemFive",
+      "menu-item#menuItemSix",
+      "menu-item#menuItemSeven",
+      "menu-item#menuItemEight",
+      "menu-item#menuItemNine",
+      "menu-item#menuItemTen",
+      "menu-item#menuItemEleven",
+      "menu-item#menuItemTwelve"
     ],
     "props": {
       "orientation": "vertical"
