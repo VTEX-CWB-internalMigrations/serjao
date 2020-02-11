@@ -83,6 +83,11 @@
   margin: 1rem 0;
 }
 
+.confirmationTitle,
+.confirmationText {
+  color: #ffffff;
+}
+
 @media only screen and (min-width: 640px) {
   .newsletter .form {
     display: inline-flex;

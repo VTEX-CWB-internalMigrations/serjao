@@ -1,0 +1,8 @@
+.label {
+    color: #ffffff!important;
+    font-weight: bold;
+}
+
+.backButton :global(.vtex-button):hover{
+    color: #ffffff!important;
+}
