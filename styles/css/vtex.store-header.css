@@ -3,7 +3,7 @@
 }
 
 .headerRowContainer--firstHeader {
-  background: #000000;
+  background: #121e25;
   padding-right: 10px;
 }
 
@@ -24,4 +24,8 @@
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0px;
   background: #18262f;
+}
+
+.headerRowContainer--firstHeader{
+  height: 35px;
 }

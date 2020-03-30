@@ -4,7 +4,7 @@
 }
 
 .notificationBarContainer {
-  background-color: #000000;
+  background-color: #121e25;
   color: #ffffff;
   font-weight: 700;
   font-size: 12px;
@@ -19,7 +19,12 @@
 }
 
 .searchBarContainer {
-  max-width: 265px;
+  max-width: 310px;
+  margin: 0px 5px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group){
+  height: 40px;
 }
 
 .infoCardContainer--info-card-home {
