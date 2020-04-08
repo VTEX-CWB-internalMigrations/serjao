@@ -13,7 +13,10 @@
       "menu-item#menuItemTen",
       "menu-item#menuItemEleven",
       "menu-item#menuItemTwelve"
-    ]
+    ],
+    "props":{
+      "blockClass": "topMenu"
+    }
   },
   "menu-item#menuItemOne": {
     "props": {

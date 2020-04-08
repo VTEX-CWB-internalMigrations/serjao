@@ -76,13 +76,12 @@
   "header-row#4-desktop": {
     "children": [
       "logo#desktop",
-      "header-spacer",
       "search-bar",
+      "header-spacer",
       "login",
       "minicart.v2"
     ],
     "props": {
-      "sticky": true,
       "blockClass": "main-header"
     }
   },

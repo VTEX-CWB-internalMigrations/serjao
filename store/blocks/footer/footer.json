@@ -16,10 +16,11 @@
 
   "flex-layout.row#footer-1-desktop": {
     "children": [
+      "footer-spacer",
       "flex-layout.col#firstCol",
       "flex-layout.col#secondCol",
-      "flex-layout.col#thirdCol",
-      "flex-layout.col#fourthCol"
+      "flex-layout.col#fourthCol",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -77,8 +78,13 @@
   "flex-layout.col#secondCol": {
     "children":[
       "rich-text#pagamento",
-      "flex-layout.row#flagPayments"
-    ]
+      "flex-layout.row#flagPayments",
+      "rich-text#selos",
+      "flex-layout.row#certificados"
+    ],
+    "props":{
+      "blockClass": "secondCol"
+    }
   },
 
   "flex-layout.row#flagPayments": {
@@ -172,16 +178,16 @@
 
   "rich-text#funcionamento": {
     "props": {
-      "text": "**Central de Atendimento: (11) 3338-2780** <br/> Seg. à Sex. das 8:30h às 18h | Sábados das 8h às 14h"
+      "text": "**Central de Atendimento: (11) 3338-2780** <br/> Seg. à Sex. das 8:30h às 18h | Sábados das 8h às 14h",
+      "blockClass": "whiteText"
     }
   },
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "rich-text#redesSociais",
-      "social-networks",
       "footer-spacer",
-      "rich-text#funcionamento"
+      "rich-text#funcionamento",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "blackLine"
@@ -190,8 +196,10 @@
 
   "flex-layout.row#footer-3-desktop": {
     "children": [
+      "footer-spacer",
       "rich-text#footer",
-      "image#linkVtex"
+      "image#linkVtex",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "credits"

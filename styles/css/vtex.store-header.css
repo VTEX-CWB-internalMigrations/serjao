@@ -1,5 +1,11 @@
 .headerRowBackground--shadow {
-  box-shadow: 1px 9px 32px -5px #8a838a;
+  box-shadow: 1px 9px 10px -5px #121e25;
+}
+
+.headerRowContentContainer--shadow{
+  background: #121e25;
+  color: #fff;
+  height: 45px;
 }
 
 .headerRowContainer--firstHeader {

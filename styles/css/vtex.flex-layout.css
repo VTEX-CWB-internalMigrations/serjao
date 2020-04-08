@@ -37,5 +37,13 @@
 }
 
 .flexRow--blackLine {
-  background-color: #000000;
+  background-color: #18262f;
+}
+
+.flexColChild--secondCol:first-child{
+  max-height: 50px;
+}
+
+.flexRow--credits{
+  background: #121e25
 }

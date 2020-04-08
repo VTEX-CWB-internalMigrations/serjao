@@ -35,11 +35,11 @@
 }
 
 .newsletter {
-  background-color: #000000!important;
+  background-color: #18262f;
   max-width: 1528px;
   margin: 0 auto;
   text-align: center;
-  border-bottom: 8px solid #eb1f05;
+  border-bottom: 5px solid #eb1f05;
 }
 
 .newsletter .container {
@@ -91,6 +91,11 @@
 .confirmationTitle,
 .confirmationText {
   color: #ffffff;
+}
+
+.searchBarContainer{
+  max-width: 450px;
+  margin: 0px 5px;
 }
 
 @media only screen and (min-width: 640px) {
