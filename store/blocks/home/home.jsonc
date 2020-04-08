@@ -3,6 +3,7 @@
     "blocks": [
       "carousel#home",
       "shelf#home",
+      "shelf#home2",
       "newsletter"
     ]
   },
@@ -51,6 +52,22 @@
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Top sellers"
+      }
+    }
+  },
+  "shelf#home2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Ofertas"
       }
     }
   },
