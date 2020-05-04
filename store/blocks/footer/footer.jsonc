@@ -361,7 +361,8 @@
       "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
       "maxWidth": "120px",
       "alt": "VTEX",
-      "link": "https://www.vtex.com.br"
+      "link": "https://www.vtex.com.br",
+      "blockClass": "vtexLogo"
     }
   }
 }
