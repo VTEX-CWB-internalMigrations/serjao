@@ -6,3 +6,7 @@
 .backButton :global(.vtex-button):hover{
     color: #ffffff!important;
 }
+
+.profileIcon{
+    color: #fff;
+}

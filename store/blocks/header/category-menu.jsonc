@@ -1,21 +1,50 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
+      "menu-item#allMenu",
       "menu-item#menuItemOne",
       "menu-item#menuItemTwo",
       "menu-item#menuItemThree",
       "menu-item#menuItemFour",
       "menu-item#menuItemFive",
-      "menu-item#menuItemSix",
-      "menu-item#menuItemSeven",
-      "menu-item#menuItemEight",
-      "menu-item#menuItemNine",
-      "menu-item#menuItemTen",
-      "menu-item#menuItemEleven",
-      "menu-item#menuItemTwelve"
+      "menu-item#menuItemSix"
+      //"menu-item#menuItemSeven",
+      //"menu-item#menuItemEight",
+      //"menu-item#menuItemNine",
+      //"menu-item#menuItemTen",
+      //"menu-item#menuItemEleven",
+      //"menu-item#menuItemTwelve"
     ],
     "props":{
       "blockClass": "topMenu"
+    }
+  },
+  "menu-item#allMenu":{
+    "children":[
+      "vtex.menu@2.x:submenu#allSubmenu"
+    ],
+    "props":{
+      "id": "menu-item-menuItemOne",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Todos os departamentos",
+        "text": "Todos os departamentos"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#allSubmenu":{
+    "children":[
+      "vtex.menu@2.x:menu#allSubmenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#allSubmenu":{
+    "props":{
+      
     }
   },
   "menu-item#menuItemOne": {

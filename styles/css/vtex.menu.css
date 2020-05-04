@@ -2,7 +2,24 @@
     font-size: 14px;
     color: #fff;
 }
-
 .menuContainerNav--topMenu{
-    margin: 0px auto;
+    margin: 0px 0px !important;
+}
+
+.menuContainer--topMenu .menuItem:first-child{
+    background: #f00;
+    position: relative;
+    padding-left: 25px;
+}
+
+.menuContainer--topMenu .menuItem:first-child::before{
+    content: '';
+    background-image: url(https://homolog2--serjao1976.vteximg.com.br/arquivos/iconHeaderMain.png);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    background-size: 30px;
+    background-repeat: no-repeat;
 }

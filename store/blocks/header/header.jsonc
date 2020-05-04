@@ -101,7 +101,7 @@
       "drawer",
       "logo#mobile",
       "header-spacer",
-      "login",
+      "login#mobile",
       "minicart.v2"
     ],
     "props": {
@@ -111,6 +111,12 @@
   },
   "drawer": {
     "children": ["menu#drawer"]
+  },
+
+  "login#mobile":{
+    "props":{
+      "showIconProfile": true
+    }
   },
 
   "menu#drawer": {
