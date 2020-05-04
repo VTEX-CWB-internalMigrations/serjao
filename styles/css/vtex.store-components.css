@@ -50,6 +50,7 @@
   padding-bottom: 4px;
   display: flex;
   color: #fff;
+  flex-direction: column;
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
@@ -67,7 +68,8 @@
   background: #478440!important;
   color: #fff;
   border: none;
-  margin-right: -24px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .buttonContainer {
@@ -126,5 +128,20 @@
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
+  }
+
+  .inputGroup {
+    padding-bottom: 4px;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+  }
+
+  .inputGroup :global(.vtex-button) {
+    background: #478440!important;
+    color: #fff;
+    border: none;
+    margin-right: -24px;
+    margin-top: 0px;
   }
 }

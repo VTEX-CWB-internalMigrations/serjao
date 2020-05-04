@@ -47,3 +47,15 @@
 .flexRow--credits{
   background: #121e25
 }
+
+.flexRow--last-footer-mobile{
+  background: #121e25
+}
+
+.flexCol--institutionalFooter{
+  margin-bottom: 25px;
+}
+
+.flexColChild--last-footer-mobile{
+  margin: 0px auto;
+}

@@ -215,14 +215,94 @@
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      //"flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile",
+      "flex-layout.row#4-footer-mobile"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
+  "flex-layout.row#2-footer-mobile":{
+    "children":[
+      "flex-layout.col#institutionalCol"
+    ]
+  },
+
+  "flex-layout.row#3-footer-mobile":{
+    "children":[
+      "rich-text#funcionamentoMobile"
+    ],
+    "props":{
+      "blockClass": "blackLine"
+    }
+  },
+
+  "rich-text#funcionamentoMobile": {
+    "props": {
+      "text": "**Central de Atendimento: (11) 3338-2780** <br/> Seg. à Sex. das 8:30h às 18h | Sábados das 8h às 14h",
+      "blockClass": "whiteTextMobile"
+    }
+  },
+
+  "flex-layout.col#institutionalCol":{
+    "children":[
+      "rich-text#institucionalMobile",
+      "rich-text#privacidadeMobile",
+      "rich-text#segurancaMobile",
+      "rich-text#sobreEmpresaMobile",
+      "rich-text#lojaMobile",
+      "rich-text#duvidasMobile"
+    ],
+    "props":{
+      "blockClass": "institutionalFooter"
+    }
+  },
+
+  "rich-text#institucionalMobile": {
+    "props": {
+      "text": "Institucional",
+      "blockClass": "footer-title-mobile"
+    }
+  },
+
+  "rich-text#sobreEmpresaMobile": {
+    "props": {
+      "text": "[Sobre a empresa](/sobre-a-empresa)",
+      "blockClass": "footer-links-mobile"
+    }
+  },
+
+  "rich-text#privacidadeMobile": {
+    "props": {
+      "text": "[Política de Privacidade](/sobre-a-empresa)",
+      "blockClass": "footer-links-mobile"
+    }
+  },
+
+  "rich-text#segurancaMobile": {
+    "props": {
+      "text": "[Política de Segurança](/sobre-a-empresa)",
+      "blockClass": "footer-links-mobile"
+    }
+  },
+
+  "rich-text#lojaMobile": {
+    "props": {
+      "text": "[Loja Física](/sobre-a-empresa)",
+      "blockClass": "footer-links-mobile"
+    }
+  },
+
+  "rich-text#duvidasMobile": {
+    "props": {
+      "text": "[Dúvidas](/sobre-a-empresa)",
+      "blockClass": "footer-links-mobile"
+    }
+  },
+
+  "flex-layout.row#4-footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "last-footer-mobile",
       "paddingTop": 4,
       "paddingBottom": 4
     }
@@ -230,10 +310,11 @@
   "flex-layout.col#footer-1-mobile": {
     "children": [
       "accepted-payment-methods",
-      "rich-text#footer-mobile"
+      "rich-text#footer-mobile",
+      "image#linkVtex"
     ],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "last-footer-mobile",
       "paddingTop": 4,
       "paddingBottom": 4,
       "rowGap": 4
@@ -249,7 +330,7 @@
   "rich-text#footer-mobile": {
     "props": {
       "text": "SERGIO HENRIQUE CAETANO SILVA - ME - CNPJ 07.976.734/0001-50 Rua Guaianases, 361 Centro, São Paulo/SP CEP: 01204-000",
-      "blockClass": "footer"
+      "blockClass": "footer-mobile"
     }
   },
 

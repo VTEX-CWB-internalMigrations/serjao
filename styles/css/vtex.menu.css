@@ -23,3 +23,13 @@
     background-size: 30px;
     background-repeat: no-repeat;
 }
+
+.menuContainer--menu-mobile .styledLinkContent{
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    border-bottom: 1.5px solid #ed1b23;
+}
+
+.menuContainerNav--menu-mobile{
+    width: 90%;
+}

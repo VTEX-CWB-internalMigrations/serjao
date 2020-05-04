@@ -89,6 +89,38 @@
   color: #fff;
 }
 
+.paragraph--footer-mobile{
+  color: #fff;
+  text-align: center;
+  padding: 0px 30px;
+  font-size: 13px;
+}
+
+.link--footer-links-mobile{
+  color: #18262f;
+  text-decoration: none;
+}
+
+.paragraph--footer-links-mobile{
+  margin: 5px auto;  
+}
+
+.container--footer-links-mobile , .container--footer-title-mobile{
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--footer-title-mobile{
+  color: #f00;
+  font-weight: 600;
+}
+
+.container--whiteTextMobile{
+  color: #fff;
+  text-align: center;
+  padding: 0px 25px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
