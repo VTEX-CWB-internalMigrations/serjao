@@ -59,3 +59,11 @@
 .flexColChild--last-footer-mobile{
   margin: 0px auto;
 }
+
+.flexRow--institutionalBox{
+  margin: 45px 10%;
+}
+
+.flexRow--menu-row{
+  border-top: 2px solid #F00;
+}

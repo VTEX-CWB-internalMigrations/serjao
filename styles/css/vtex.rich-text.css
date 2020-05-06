@@ -125,6 +125,31 @@
   font-size: 0px;
 }
 
+.container--institutionalTitle{
+  background: #121e25;
+  padding: 0px 20px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.container--institutionalTitle::before{
+  content: "";
+  background: #f00;
+  width: 12px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.paragraph--institutionalText{
+  padding: 0px 20px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
