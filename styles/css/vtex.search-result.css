@@ -1,0 +1,31 @@
+.galleryTitle--layout{
+    background: #18262f;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 50px;
+    margin-left: 4rem;
+    border-radius: 10px;
+    position: relative;
+}
+.galleryTitle--layout::before{
+    content: "";
+    background: #f00;
+    width: 25px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.filterMessage{
+    padding: 13px 25px;
+    background: #18262f;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.buttonShowMore--layout{
+    margin-bottom: 25px;
+}

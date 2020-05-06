@@ -63,7 +63,8 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
       "flex-layout.row#result"
     ],
     "props": {
@@ -82,8 +83,11 @@
       "fullWidth": true
     }
   },
-  "flex-layout.row#searchtitle": {
-    "children": ["search-title.v2"]
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
   },
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
@@ -100,6 +104,7 @@
   },
   "flex-layout.col#content": {
     "children": [
+      "search-title.v2",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
