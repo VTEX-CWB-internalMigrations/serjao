@@ -12,6 +12,16 @@
     padding-left: 25px;
 }
 
+.menuContainer--topMenu .menuItem .submenuWrapper .menuItem:first-child{
+    background: #ffff;
+    padding-left: 0px;
+}
+
+.menuContainer--topMenu .menuItem .submenuWrapper .menuItem:first-child::before{
+    content: '';
+    display: none;
+}
+
 .menuContainer--topMenu .menuItem:first-child::before{
     content: '';
     background-image: url(https://homolog2--serjao1976.vteximg.com.br/arquivos/iconHeaderMain.png);
