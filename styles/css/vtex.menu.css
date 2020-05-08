@@ -33,3 +33,16 @@
 .menuContainerNav--menu-mobile{
     width: 90%;
 }
+
+.flexRow--product-main-box{
+    margin: 0px 1rem;
+}
+
+.menuContainer--topMenu .menuItem:hover .submenuWrapper{
+    display: block;
+    width: 100%;
+}
+
+.menuContainer--topMenu .menuItem .submenuWrapper .styledLinkContent{
+    color: #000;
+}

@@ -67,3 +67,7 @@
 .flexRow--menu-row{
   border-top: 2px solid #F00;
 }
+
+.flexRow--product-main-box{
+  margin: 0px 1rem;
+}

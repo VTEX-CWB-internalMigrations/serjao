@@ -33,7 +33,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "product-main-box"
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },

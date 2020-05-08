@@ -43,6 +43,9 @@
     ]
   },
   "vtex.menu@2.x:menu#allSubmenu":{
+    "children":[
+      
+    ],
     "props":{
       
     }

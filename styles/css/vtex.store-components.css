@@ -85,6 +85,16 @@
   margin: 1rem 0;
 }
 
+.skuSelectorItem{
+  font-size: 90%;
+  height: auto;
+}
+
+.skuSelectorItemTextValue{
+  font-size: 12px;
+  padding: 5px;
+}
+
 .confirmationTitle,
 .confirmationText {
   color: #ffffff;
@@ -107,11 +117,11 @@
 }
 
 .productDescriptionTitle{
-  background: #000;
+  background: #18262f;
   padding: 10px 60px;
   color: #fff;
   border-radius: 10px;
-  margin: 0px 50px;
+  margin: 0px 1rem;
   display: flex;
   position: relative;
   font-weight: 400;
@@ -120,7 +130,7 @@
 .productDescriptionTitle::before{
   content: "";
   width: 50px;
-  height: 43px;
+  height: 100%;
   background-color: #f00;
   display: block;
   position: absolute;
@@ -128,6 +138,14 @@
   top: 0px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+.productNameContainer{
+  padding: 0px .25rem
+}
+
+.productBrand{
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 640px) {
