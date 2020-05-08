@@ -48,6 +48,11 @@
     margin: 0px 1rem;
 }
 
+.menuContainer--topMenu .menuItem .submenuWrapper .styledLinkContainer{
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
 .menuContainer--topMenu .menuItem:hover .submenuWrapper{
     display: block;
     width: 100%;
@@ -55,4 +60,16 @@
 
 .menuContainer--topMenu .menuItem .submenuWrapper .styledLinkContent{
     color: #000;
+    padding: 8px 0px;
 }
+
+.menuContainer--topMenu .menuItem .submenuWrapper .styledLinkContainer::after{
+    content: '';
+    background: #f00;
+    width: 12px;
+    height: 2px;
+    display: block;
+    margin: 0px;
+}
+
+
