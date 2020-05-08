@@ -76,8 +76,8 @@
   "header-row#4-desktop": {
     "children": [
       "logo#desktop",
-      "search-bar",
       "header-spacer",
+      "search-bar",
       "login",
       "minicart.v2"
     ],
@@ -103,7 +103,7 @@
   },
 
   "header-layout.mobile": {
-    "children": ["header-row#1-mobile"]
+    "children": ["header-row#1-mobile", "header-row#2-mobile"]
   },
   "header-row#1-mobile": {
     "children": [
@@ -120,6 +120,11 @@
   },
   "drawer": {
     "children": ["menu#drawer"]
+  },
+  "header-row#2-mobile":{
+    "children":[
+      "search-bar"
+    ]
   },
 
   "login#mobile":{

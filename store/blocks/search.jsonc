@@ -63,7 +63,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#did-you-mean",
       "flex-layout.row#suggestion",
       "flex-layout.row#result"
     ],
@@ -77,14 +76,11 @@
     }
   },
   "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
+    "children": ["breadcrumb.search", "did-you-mean" ],
     "props": {
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "flex-layout.row#did-you-mean": {
-    "children": ["did-you-mean"]
   },
   "flex-layout.row#suggestion": {
     "children": ["search-suggestions"]

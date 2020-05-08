@@ -1,0 +1,18 @@
+.biggy-autocomplete-wrapper{
+    width: 90vw;
+    max-width: 450px;
+}
+.biggy-autocomplete{
+    flex-direction: column !important;
+    max-height: 405px;
+    right: 0px;
+    width: 100%;
+}
+
+.itemList--suggestion{
+    overflow: visible;
+}
+
+.itemList--suggestion .itemListTitle{
+    display: none;
+}
