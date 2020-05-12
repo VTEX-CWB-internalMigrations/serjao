@@ -83,6 +83,7 @@
       "vtex.store-components:product-name",
       "product-rating-summary",
       "product-price#product-details",
+      "product-spot-price",
       "product-separator",
       "product-identifier.product",
       "sku-selector",
@@ -93,6 +94,12 @@
       "shipping-simulator",
       "share#default"
     ]
+  },
+
+  "product-spot-price":{
+    "props":{
+      
+    }
   },
 
   "sku-selector": {
