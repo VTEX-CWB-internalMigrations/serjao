@@ -4,6 +4,8 @@
       "carousel#home",
       "shelf#home",
       "shelf#home2",
+      "shelf#home3",
+      "shelf#home4",
       "newsletter"
     ]
   },
@@ -56,6 +58,40 @@
     }
   },
   "shelf#home2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Ofertas"
+      }
+    }
+  },
+
+  "shelf#home3": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Ofertas"
+      }
+    }
+  },
+
+  "shelf#home4": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
